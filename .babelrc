@@ -1,0 +1,21 @@
+{
+  "presets": [
+    "stage-0",
+    "latest",
+    "react"
+  ],
+  "plugins": [
+    "transform-decorators-legacy",
+    "transform-object-assign",
+    "transform-async-to-generator",
+    "transform-do-expressions",
+    "syntax-do-expressions",
+    ["transform-runtime",{
+      "polyfill": false,
+      "regenerator": true
+    }],
+    ["import",
+      { "libraryName": "antd", "style": true }
+    ]
+  ]
+}

@@ -1,0 +1,39 @@
+@import '../../../assets/styles/base.scss';
+.page-login{
+    background:#ececec;
+    height:100%;
+    .loginscreen {
+        width: 400px;
+        margin:0 auto;
+        .login_wrapper {
+            margin-top: 50px;
+            .logo_box {
+                margin-bottom: 20px;
+                text-align: center;
+                img {
+                    width: 200px;
+                }
+            }
+            .form_box {
+                background: #fff;
+                border: 1px solid #e7eaec;
+                border-radius: 2px;
+                padding: 20px;
+                position: relative;
+                .checkcode-input{
+                    // width:255px;
+                    float:left;
+                }
+                .code_img{
+                    width: 90px;
+                    height: 23px;
+                    cursor:pointer;
+                    float:right;
+                }
+                .other-links{
+                    margin-top:20px;
+                }
+            }
+        }
+    }
+}
